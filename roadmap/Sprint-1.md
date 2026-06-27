@@ -46,6 +46,8 @@
 - Servidor iniciou com 10 plugins carregados; AuthMe habilitou SQLite e hooks em LuckPerms/Essentials.
 - Jogadores precisam usar `/register senha senha` no primeiro acesso e `/login senha` nos proximos acessos; administradores devem registrar seus nicks antes de liberar para amigos.
 - Pendencia: validar o fluxo `/register` e `/login` em jogo com cliente Minecraft local.
+- Guia `docs/Admin-Seguranca.md` criado com checklist de registro do dono/admin e permissoes iniciais via LuckPerms.
+- Antes de chamar amigos: dono deve registrar o nick no AuthMe, aplicar permissoes pelo console e registrar todos os comandos executados.
 - Mantido fora de escopo nesta etapa: plugins de RPG e configuracoes de RPG.
 - Situacao: servidor base funcional com 10 plugins; CoreProtect permanece pendente.
 - Proxima etapa recomendada: configurar `server.properties`, `bukkit.yml`, `spigot.yml` e configuracoes Paper com foco em servidor local leve.

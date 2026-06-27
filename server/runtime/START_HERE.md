@@ -61,3 +61,12 @@ Passo a passo futuro:
 - Usar senha forte e nao compartilhar senha.
 - Pendencia: validar `/register` e `/login` em jogo com um cliente Minecraft local.
 - CoreProtect continua pendente/incompativel; RPG ainda nao comecou.
+
+## Checklist antes de chamar amigos
+- O dono/admin deve entrar primeiro no servidor e registrar o proprio nick:
+  - `/register SENHA_FORTE SENHA_FORTE`
+  - `/login SENHA_FORTE`
+- Depois do login, aplicar permissoes pelo console com LuckPerms usando o nick real do Minecraft.
+- Ver comandos sugeridos em `docs/Admin-Seguranca.md`.
+- Usar senha forte, nao compartilhar senha e evitar nicks simples como `admin`, `dono`, `owner` ou `server`.
+- Registrar todos os comandos executados no console.
