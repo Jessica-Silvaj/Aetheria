@@ -28,8 +28,12 @@
 
 ## Status da Etapa Atual
 - Concluido nesta etapa: escolha de build estavel (fallback Paper 26.1.2), download do paper.jar, primeiro boot, aceite do EULA e segundo boot sem erro critico.
-- Mantido fora de escopo nesta etapa: instalacao de plugins e configuracoes de RPG.
-- Situacao: etapa de primeiro start local concluida.
+- Primeiro lote de plugins base testado em 2026-06-27.
+- Instalados com boot confirmado: LuckPerms 5.5.57, Vault 1.7.3-b131, PlaceholderAPI 2.12.2, ProtocolLib 5.4.0 e EssentialsX 2.22.0.
+- CoreProtect 23.2 foi testado, mas removido porque informou `Minecraft 26.1.2 is not supported` durante o boot.
+- Observacao: ProtocolLib 5.4.0 carregou com aviso de que Minecraft 26.1.2 ainda nao foi testado.
+- Mantido fora de escopo nesta etapa: plugins de RPG e configuracoes de RPG.
+- Situacao: primeiro lote de plugins parcialmente concluido; pendente CoreProtect compativel com Paper/Minecraft 26.1.2 ou reavaliacao da versao do Paper.
 
 ## Resultado Esperado
 - Plano de execucao da Sprint 1 aprovado e pronto para implementacao passo a passo.
