@@ -16,6 +16,19 @@ versions/
 libraries/
 plugins/
 server/plugins/**
+server/runtime/paper.jar
+server/runtime/world/
+server/runtime/world_nether/
+server/runtime/world_the_end/
+server/runtime/logs/
+server/runtime/cache/
+server/runtime/libraries/
+server/runtime/versions/
+
+# Ignore all generated runtime content, keep only docs in runtime/
+server/runtime/*
+!server/runtime/README.md
+!server/runtime/START_HERE.md
 
 # Backups and archives
 *.zip

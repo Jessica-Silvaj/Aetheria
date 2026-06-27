@@ -27,9 +27,9 @@
 11. Planejar commit final da Sprint 1 com mensagem padronizada.
 
 ## Status da Etapa Atual
-- Preparado nesta etapa: estrutura server/runtime e scripts de start (Windows, PowerShell e Linux/macOS).
-- Ainda pendente: baixar Paper, executar servidor, aceitar EULA, ajustar server.properties e validar teste local.
-- Situacao: etapa parcialmente concluida (planejada e preparada, mas nao finalizada).
+- Concluido nesta etapa: escolha de build estavel (fallback Paper 26.1.2), download do paper.jar, primeiro boot, aceite do EULA e segundo boot sem erro critico.
+- Mantido fora de escopo nesta etapa: instalacao de plugins e configuracoes de RPG.
+- Situacao: etapa de primeiro start local concluida.
 
 ## Resultado Esperado
 - Plano de execucao da Sprint 1 aprovado e pronto para implementacao passo a passo.
