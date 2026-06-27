@@ -40,6 +40,8 @@
 - Aviso do segundo lote: BlueMap carregou, mas precisa aceitar o download de recursos em `plugins/BlueMap/core.conf` antes de funcionar plenamente.
 - ProtocolLib esta funcional, mas segue com aviso de versao nao testada em Minecraft 26.1.2.
 - Aviso de shutdown: EssentialsX 2.22.0 gerou aviso de tarefa assincrona durante parada com `stop`, sem bloquear o servidor.
+- `server.properties` ajustado para Alpha Local: `online-mode=false`, `white-list=false`, servidor leve para ate 10 jogadores, survival normal e PvP desativado.
+- Aviso de seguranca: antes de abrir ao publico, sera obrigatorio instalar/configurar autenticacao/login e proteger nicks administrativos.
 - Mantido fora de escopo nesta etapa: plugins de RPG e configuracoes de RPG.
 - Situacao: servidor base funcional com 9 plugins; CoreProtect permanece pendente.
 - Proxima etapa recomendada: configurar `server.properties`, `bukkit.yml`, `spigot.yml` e configuracoes Paper com foco em servidor local leve.

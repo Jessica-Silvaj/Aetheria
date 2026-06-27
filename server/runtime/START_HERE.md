@@ -46,3 +46,8 @@ Passo a passo futuro:
 - Avisos: ProtocolLib 5.4.0 esta funcional, mas segue com aviso de versao nao testada; BlueMap precisa aceitar manualmente o download de recursos em `plugins/BlueMap/core.conf` antes de uso completo; EssentialsX gerou aviso de tarefa assincrona no shutdown, sem bloquear o servidor.
 - CoreProtect continua pendente/incompativel e nao deve ser reinstalado agora.
 - Proxima etapa recomendada: configurar `server.properties`, `bukkit.yml`, `spigot.yml` e configuracoes Paper com foco em servidor local leve.
+
+## Configuracao Alpha Local
+- `server.properties` ajustado para Alpha Local leve: `online-mode=false`, `white-list=false`, `max-players=10`, `difficulty=normal`, `gamemode=survival`, `pvp=false`, `view-distance=8`, `simulation-distance=6` e MOTD `Aetheria Online - Alpha Local`.
+- Este modo offline/cracked e sem whitelist e permitido apenas na Alpha Local.
+- Antes de abrir o servidor ao publico, sera obrigatorio instalar/configurar plugin de autenticacao/login e proteger nicks administrativos.
