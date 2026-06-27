@@ -27,10 +27,10 @@ Passo a passo futuro:
   - ProtocolLib 5.4.0
   - EssentialsX 2.22.0
   - CoreProtect Community Edition 23.2
-- Resultado do boot com plugins: servidor iniciou e chegou a `Done` com 6 plugins inicializados.
-- Problema encontrado: CoreProtect 23.2 informou `Minecraft 26.1.2 is not supported` e foi desativado pelo proprio plugin.
-- Acao tomada: `CoreProtect-CE-23.2.jar` foi removido de `server/runtime/plugins/` para manter apenas plugins compativeis instalados.
-- Estado atual instalado: LuckPerms, Vault, PlaceholderAPI, ProtocolLib e EssentialsX.
-- Validacao final: boot curto confirmou `Initialized 5 plugins` e `Done` sem erro critico.
-- Observacao: ProtocolLib 5.4.0 carregou, mas avisou que Minecraft 26.1.2 ainda nao foi testado.
-- Observacao: o comando `stop` foi enviado, mas Paper 26.1.2 retornou uma excecao no comando de console; o processo foi encerrado manualmente apos a validacao.
+- Estado funcional confirmado: servidor iniciou e chegou a `Done` com 5 plugins carregados.
+- Instalados: LuckPerms, Vault, PlaceholderAPI, ProtocolLib e EssentialsX.
+- ProtocolLib 5.4.0 esta instalado, mas carregou com aviso de que Minecraft 26.1.2 ainda nao foi testado.
+- CoreProtect 23.2 esta pendente/incompativel temporariamente: informou `Minecraft 26.1.2 is not supported` e foi removido de `server/runtime/plugins/`.
+- Nao reinstalar CoreProtect ate existir uma versao compativel com Paper/Minecraft 26.1.2 ou ate a versao do Paper ser reavaliada.
+- Observacao: em um teste anterior, o comando `stop` no console do Paper 26.1.2 gerou excecao.
+- Proxima etapa: instalar e testar o segundo lote de plugins base: WorldEdit, WorldGuard, Chunky e BlueMap.
