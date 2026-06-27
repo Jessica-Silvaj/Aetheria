@@ -38,10 +38,11 @@
 - Servidor iniciou com 9 plugins carregados: LuckPerms, Vault, PlaceholderAPI, ProtocolLib, EssentialsX, WorldEdit, WorldGuard, Chunky e BlueMap.
 - Segundo lote instalado: WorldEdit 7.4.3, WorldGuard 7.0.16, Chunky 1.5.3 e BlueMap 5.22.
 - Aviso do segundo lote: BlueMap carregou, mas precisa aceitar o download de recursos em `plugins/BlueMap/core.conf` antes de funcionar plenamente.
-- Aviso de shutdown: Essentials 2.22.0 gerou aviso de tarefa assincrona durante parada com `stop`.
+- ProtocolLib esta funcional, mas segue com aviso de versao nao testada em Minecraft 26.1.2.
+- Aviso de shutdown: EssentialsX 2.22.0 gerou aviso de tarefa assincrona durante parada com `stop`, sem bloquear o servidor.
 - Mantido fora de escopo nesta etapa: plugins de RPG e configuracoes de RPG.
 - Situacao: servidor base funcional com 9 plugins; CoreProtect permanece pendente.
-- Proxima etapa: revisar pendencias operacionais do BlueMap e seguir configuracoes basicas do servidor, sem plugins de RPG.
+- Proxima etapa recomendada: configurar `server.properties`, `bukkit.yml`, `spigot.yml` e configuracoes Paper com foco em servidor local leve.
 
 ## Resultado Esperado
 - Plano de execucao da Sprint 1 aprovado e pronto para implementacao passo a passo.

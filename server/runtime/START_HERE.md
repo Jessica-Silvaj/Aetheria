@@ -43,5 +43,6 @@ Passo a passo futuro:
   - BlueMap 5.22
 - Resultado: servidor iniciou e chegou a `Done` com 9 plugins carregados.
 - Parada: comando `stop` executado e servidor salvo/desligado.
-- Avisos: ProtocolLib 5.4.0 segue com aviso de versao nao testada; BlueMap precisa aceitar o download de recursos em `plugins/BlueMap/core.conf`; Essentials gerou aviso de tarefa assincrona durante shutdown.
+- Avisos: ProtocolLib 5.4.0 esta funcional, mas segue com aviso de versao nao testada; BlueMap precisa aceitar manualmente o download de recursos em `plugins/BlueMap/core.conf` antes de uso completo; EssentialsX gerou aviso de tarefa assincrona no shutdown, sem bloquear o servidor.
 - CoreProtect continua pendente/incompativel e nao deve ser reinstalado agora.
+- Proxima etapa recomendada: configurar `server.properties`, `bukkit.yml`, `spigot.yml` e configuracoes Paper com foco em servidor local leve.
