@@ -51,3 +51,13 @@ Passo a passo futuro:
 - `server.properties` ajustado para Alpha Local leve: `online-mode=false`, `white-list=false`, `max-players=10`, `difficulty=normal`, `gamemode=survival`, `pvp=false`, `view-distance=8`, `simulation-distance=6` e MOTD `Aetheria Online - Alpha Local`.
 - Este modo offline/cracked e sem whitelist e permitido apenas na Alpha Local.
 - Antes de abrir o servidor ao publico, sera obrigatorio instalar/configurar plugin de autenticacao/login e proteger nicks administrativos.
+
+## Registro de autenticacao
+- Data: 2026-06-27.
+- AuthMeReloaded 6.0.0 Paper instalado para proteger nicks no servidor `online-mode=false` e `white-list=false`.
+- Resultado: servidor iniciou e chegou a `Done` com 10 plugins carregados; AuthMe 6.0.0 build n.2734 foi habilitado com SQLite e hooks em LuckPerms/Essentials.
+- Jogadores devem registrar senha no primeiro acesso com `/register senha senha` e depois entrar com `/login senha`.
+- Administradores devem registrar seus nicks antes de liberar o servidor para amigos.
+- Usar senha forte e nao compartilhar senha.
+- Pendencia: validar `/register` e `/login` em jogo com um cliente Minecraft local.
+- CoreProtect continua pendente/incompativel; RPG ainda nao comecou.

@@ -42,8 +42,12 @@
 - Aviso de shutdown: EssentialsX 2.22.0 gerou aviso de tarefa assincrona durante parada com `stop`, sem bloquear o servidor.
 - `server.properties` ajustado para Alpha Local: `online-mode=false`, `white-list=false`, servidor leve para ate 10 jogadores, survival normal e PvP desativado.
 - Aviso de seguranca: antes de abrir ao publico, sera obrigatorio instalar/configurar autenticacao/login e proteger nicks administrativos.
+- AuthMeReloaded 6.0.0 Paper instalado em 2026-06-27 para proteger nicks no modo offline/cracked aberto.
+- Servidor iniciou com 10 plugins carregados; AuthMe habilitou SQLite e hooks em LuckPerms/Essentials.
+- Jogadores precisam usar `/register senha senha` no primeiro acesso e `/login senha` nos proximos acessos; administradores devem registrar seus nicks antes de liberar para amigos.
+- Pendencia: validar o fluxo `/register` e `/login` em jogo com cliente Minecraft local.
 - Mantido fora de escopo nesta etapa: plugins de RPG e configuracoes de RPG.
-- Situacao: servidor base funcional com 9 plugins; CoreProtect permanece pendente.
+- Situacao: servidor base funcional com 10 plugins; CoreProtect permanece pendente.
 - Proxima etapa recomendada: configurar `server.properties`, `bukkit.yml`, `spigot.yml` e configuracoes Paper com foco em servidor local leve.
 
 ## Resultado Esperado
