@@ -34,9 +34,14 @@
 - CoreProtect 23.2 esta pendente/incompativel temporariamente: foi testado, informou `Minecraft 26.1.2 is not supported` e foi removido.
 - Nao reinstalar CoreProtect ate existir versao compativel com Paper/Minecraft 26.1.2 ou ate a versao do Paper ser reavaliada.
 - Observacao: em um teste anterior, o comando `stop` no console do Paper 26.1.2 gerou excecao.
+- Segundo lote de plugins base testado em 2026-06-27.
+- Servidor iniciou com 9 plugins carregados: LuckPerms, Vault, PlaceholderAPI, ProtocolLib, EssentialsX, WorldEdit, WorldGuard, Chunky e BlueMap.
+- Segundo lote instalado: WorldEdit 7.4.3, WorldGuard 7.0.16, Chunky 1.5.3 e BlueMap 5.22.
+- Aviso do segundo lote: BlueMap carregou, mas precisa aceitar o download de recursos em `plugins/BlueMap/core.conf` antes de funcionar plenamente.
+- Aviso de shutdown: Essentials 2.22.0 gerou aviso de tarefa assincrona durante parada com `stop`.
 - Mantido fora de escopo nesta etapa: plugins de RPG e configuracoes de RPG.
-- Situacao: primeiro lote de plugins base funcional com 5 plugins; CoreProtect permanece pendente.
-- Proxima etapa: instalar e testar o segundo lote de plugins base: WorldEdit, WorldGuard, Chunky e BlueMap.
+- Situacao: servidor base funcional com 9 plugins; CoreProtect permanece pendente.
+- Proxima etapa: revisar pendencias operacionais do BlueMap e seguir configuracoes basicas do servidor, sem plugins de RPG.
 
 ## Resultado Esperado
 - Plano de execucao da Sprint 1 aprovado e pronto para implementacao passo a passo.
