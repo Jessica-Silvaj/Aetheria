@@ -5,7 +5,7 @@
 
 ## Tarefas
 1. Definir a versao-alvo do Minecraft e a build do Paper para desenvolvimento local.
-2. Confirmar o uso de Java 21 e registrar o comando de validacao da versao.
+2. Verificar na documentacao oficial do Paper a versao de Java exigida para Paper 26.x (sem assumir Java 21 automaticamente).
 3. Definir estrutura da pasta de runtime do servidor (ex.: server/runtime/).
 4. Planejar o download futuro do Paper (origem oficial e arquivo esperado).
 5. Planejar o primeiro start do servidor para gerar arquivos base.
@@ -25,6 +25,11 @@
 	- BlueMap
 10. Definir checklist de teste local apos setup inicial (startup, logs, plugins e comandos basicos).
 11. Planejar commit final da Sprint 1 com mensagem padronizada.
+
+## Status da Etapa Atual
+- Preparado nesta etapa: estrutura server/runtime e scripts de start (Windows, PowerShell e Linux/macOS).
+- Ainda pendente: baixar Paper, executar servidor, aceitar EULA, ajustar server.properties e validar teste local.
+- Situacao: etapa parcialmente concluida (planejada e preparada, mas nao finalizada).
 
 ## Resultado Esperado
 - Plano de execucao da Sprint 1 aprovado e pronto para implementacao passo a passo.
